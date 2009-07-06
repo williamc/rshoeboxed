@@ -17,7 +17,7 @@ module RShoeboxed
   class Connection
     attr_accessor :api_key, :user_token
     
-    API_SERVER = "www.shoeboxed.com"
+    API_SERVER = "app.shoeboxed.com"
     API_PATH = "/ws/api.htm"
     API_URL = "https://" + API_SERVER + API_PATH
     
